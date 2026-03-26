@@ -91,27 +91,82 @@
                                                 }
                                             },
                                             {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                                                "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                        "Props": {
-                                                            "Label": "Join Discord",
-                                                            "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
-                                                            "Padding": [
-                                                                5,
-                                                                5,
-                                                                5,
-                                                                5
-                                                            ]
-                                                        },
-                                                        "OnClickEvent": {
-                                                            "Url": "$$SERVER$:$DISCORD"
-                                                        "Url": "https://discord.gg/pxs"
-                                                        }
-                                                    }
-                                                ]
-                                            }
+  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+  "Props": {
+    "Padding": [5, 10, 5, 5]
+  },
+  "UIItems": [
+    {
+      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+      "UIItems": [
+        {
+          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+          "Props": {
+            "Fill": 1
+          },
+          "UIItems": []
+        },
+        {
+          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+          "Props": {
+            "Label": "Join Discord",
+            "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
+            "Padding": [5, 5, 8, 5]
+          },
+          "OnClickEvent": {
+            "Url": "https://discord.gg/pxs"
+          }
+        },
+        {
+          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+          "Props": {
+            "Label": "Website",
+            "Padding": [8, 5, 5, 5]
+          },
+          "OnClickEvent": {
+            "Url": "https://www.phoenx-society.de"
+          }
+        },
+        {
+          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+          "Props": {
+            "Fill": 1
+          },
+          "UIItems": []
+        }
+      ]
+    },
+    {
+      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+      "UIItems": [
+        {
+          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+          "Props": {
+            "Fill": 1
+          },
+          "UIItems": []
+        },
+        {
+          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+          "Props": {
+            "Label": "More Soon",
+            "Padding": [5, 8, 5, 5]
+          },
+          "OnClickEvent": {
+            "Url": "https://www.phoenx-society.de"
+          }
+        },
+        {
+          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+          "Props": {
+            "Fill": 1
+          },
+          "UIItems": []
+        }
+      ]
+    }
+  ]
+}
                                         ]
                                     }
                                 ]
