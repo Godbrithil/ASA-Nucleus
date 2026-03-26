@@ -106,7 +106,7 @@
                                                             ]
                                                         },
                                                         "OnClickEvent": {
-                                                            "Url": "$$SERVER$:https://www.discord.gg/pxs"
+                                                            "Url": "$$SERVER$:$DISCORD"
                                                         }
                                                     }
                                                 ]
