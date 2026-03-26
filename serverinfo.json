@@ -1,769 +1,1073 @@
 {
-    "RequestUID": "Ark-Nucleus/WebUI",
-    "UUID": "MyCoolNewServerInfoPage",
-    "Data": {
-        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
+  "RequestUID": "Ark-Nucleus/WebUI",
+  "UUID": "MyCoolNewServerInfoPage",
+  "Data": {
+    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
+    "Props": {
+      "UUID": "MainTab",
+      "Fill": 1
+    },
+    "UICache": {
+      "SaveFile": "CustomServerPage-MainTab"
+    },
+    "Tabs": [
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
         "Props": {
-            "UUID": "MainTab",
-            "Fill": 1
+          "Title": "$$SERVER$:$HOME",
+          "Note": "$$SERVER$:$HOME_NOTE",
+          "Fill": 1,
+          "Image": "$$SERVER$:$HOME_BACKGROUND"
         },
-        "UICache": {
-            "SaveFile": "CustomServerPage-MainTab"
-        },
-        "Tabs": [
-            {
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+            "Props": {
+              "Fill": 1
+            },
+            "UIItems": [
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                "Props": {
+                  "Fill": 1,
+                  "Padding": [
+                    30,
+                    30,
+                    30,
+                    30
+                  ]
+                },
+                "UIItems": []
+              },
+              {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                 "Props": {
-                    "Title": "$$SERVER$:$HOME",
-                    "Note": "$$SERVER$:$HOME_NOTE",
-                    "Fill": 1,
-                    "Image": "$$SERVER$:$HOME_BACKGROUND"
+                  "VerticalAlignment": 2,
+                  "Padding": [
+                    30,
+                    30,
+                    30,
+                    30
+                  ]
                 },
                 "UIItems": [
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                        "Props": {
-                            "Fill": 1
-                        },
-                        "UIItems": [
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                "Props": {
-                                    "Fill": 1,
-                                    "Padding": [
-                                        30,
-                                        30,
-                                        30,
-                                        30
-                                    ]
-                                },
-                                "UIItems": []
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "VerticalAlignment": 2,
-                                    "Padding": [
-                                        30,
-                                        30,
-                                        30,
-                                        30
-                                    ]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                        "Props": {
-                                            "Fill": 2,
-                                            "VerticalAlignment": 2,
-                                            "Padding": [
-                                                10,
-                                                10,
-                                                10,
-                                                10
-                                            ]
-                                        },
-                                        "UIItems": [
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                "Props": {
-                                                    "Text": "$$SERVER$:$WELCOME_TO_SERVER",
-                                                    "FontSize": 32,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                "Props": {
-                                                    "Text": "$$SERVER$:$SERVER_SLOGAN",
-                                                    "FontSize": 16,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                }
-                                            },
-                                            {
-  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-  "Props": {
-    "Padding": [5, 10, 5, 5]
-  },
-  "UIItems": [
-    {
-      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-      "UIItems": [
-        {
-          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-          "Props": {
-            "Fill": 1
-          },
-          "UIItems": []
-        },
-        {
-          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-          "Props": {
-            "Label": "Join Discord",
-            "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
-            "Padding": [5, 5, 8, 5]
-          },
-          "OnClickEvent": {
-            "Url": "https://discord.gg/pxs"
-          }
-        },
-        {
-          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-          "Props": {
-            "Label": "Website",
-            "Padding": [8, 5, 5, 5]
-          },
-          "OnClickEvent": {
-            "Url": "https://www.phoenx-society.de"
-          }
-        },
-        {
-          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-          "Props": {
-            "Fill": 1
-          },
-          "UIItems": []
-        }
-      ]
-    },
-    {
-      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-      "UIItems": [
-        {
-          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-          "Props": {
-            "Fill": 1
-          },
-          "UIItems": []
-        },
-        {
-          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-          "Props": {
-            "Label": "More Soon",
-            "Padding": [5, 8, 5, 5]
-          },
-          "OnClickEvent": {
-            "Url": "https://www.phoenx-society.de"
-          }
-        },
-        {
-          "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-          "Props": {
-            "Fill": 1
-          },
-          "UIItems": []
-        }
-      ]
-    }
-  ]
-}
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                    "Props": {
+                      "Fill": 2,
+                      "VerticalAlignment": 2,
+                      "Padding": [
+                        10,
+                        10,
+                        10,
+                        10
+                      ]
                     },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                        "Props": {
-                            "HorizontalAlignment": 0,
-                            "Padding": [
-                                5,
-                                5,
-                                5,
-                                5
-                            ]
-                        },
-                        "UIItems": [
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "VerticalAlignment": 0,
-                                    "Fill": 1,
-                                    "Color": [
-                                        0.3,
-                                        0.2,
-                                        0.5
-                                    ],
-                                    "Padding": [
-                                        10,
-                                        10,
-                                        10,
-                                        10
-                                    ]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                                        "Props": {
-                                            "Padding": [
-                                                5,
-                                                5,
-                                                5,
-                                                5
-                                            ]
-                                        },
-                                        "UIItems": [
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
-                                                "Props": {
-                                                    "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
-                                                    "Width": 120,
-                                                    "Height": 120,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                                "Props": {
-                                                    "Fill": 1,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                },
-                                                "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "$$SERVER$:$HOME_WIDGET1_HEADLINE",
-                                                            "FontSize": 14,
-                                                            "Justification": "Left",
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "$$SERVER$:$HOME_WIDGET1_TEXT",
-                                                            "FontSize": 11,
-                                                            "Justification": "Left",
-                                                            "Fill": 1,
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "VerticalAlignment": 0,
-                                    "Fill": 1,
-                                    "Color": [
-                                        0,
-                                        0.7,
-                                        0.5
-                                    ],
-                                    "Padding": [
-                                        10,
-                                        10,
-                                        10,
-                                        10
-                                    ]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                                        "Props": {
-                                            "Padding": [
-                                                5,
-                                                5,
-                                                5,
-                                                5
-                                            ]
-                                        },
-                                        "UIItems": [
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
-                                                "Props": {
-                                                    "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
-                                                    "Width": 120,
-                                                    "Height": 120,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                                "Props": {
-                                                    "Fill": 1,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                },
-                                                "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "$$SERVER$:$HOME_WIDGET2_HEADLINE",
-                                                            "FontSize": 14,
-                                                            "Justification": "Left",
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "$$SERVER$:$HOME_WIDGET2_TEXT",
-                                                            "FontSize": 11,
-                                                            "Justification": "Left",
-                                                            "Fill": 1,
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "VerticalAlignment": 0,
-                                    "Fill": 1,
-                                    "Color": [
-                                        0,
-                                        0.2,
-                                        0.5
-                                    ],
-                                    "Padding": [
-                                        10,
-                                        10,
-                                        10,
-                                        10
-                                    ]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                                        "Props": {
-                                            "Padding": [
-                                                5,
-                                                5,
-                                                5,
-                                                5
-                                            ]
-                                        },
-                                        "UIItems": [
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
-                                                "Props": {
-                                                    "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
-                                                    "Width": 120,
-                                                    "Height": 120,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                                "Props": {
-                                                    "Fill": 1,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                },
-                                                "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "$$SERVER$:$HOME_WIDGET3_HEADLINE",
-                                                            "FontSize": 14,
-                                                            "Justification": "Left",
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "$$SERVER$:$HOME_WIDGET3_TEXT",
-                                                            "Justification": "Left",
-                                                            "FontSize": 11,
-                                                            "Fill": 1,
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
-                "Props": {
-                    "Title": "$$SERVER$:$FAQ",
-                    "Note": "$$SERVER$:$FAQ_NOTE",
-                    "Fill": 1
-                },
-                "UIItems": [
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
-                        "Props": {
-                            "Padding": [
-                                2,
-                                2,
-                                2,
-                                2
-                            ]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
-                        "Props": {
-                            "Fill": 1
-                        },
-                        "UIItems": [
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_HEADLINE1",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_TEXT1",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_HEADLINE2",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_TEXT2",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_HEADLINE3",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_TEXT3",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_HEADLINE4",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_TEXT4",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_HEADLINE5",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_TEXT5",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_HEADLINE6",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_TEXT6",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_HEADLINE7",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_TEXT7",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_HEADLINE8",
-                                    "FontSize": 16,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "$$SERVER$:$FAQ_TEXT8",
-                                    "FontSize": 12,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
-                        "Props": {
-                            "Padding": [
-                                2,
-                                2,
-                                2,
-                                2
-                            ]
-                        }
-                    },
-                    {
+                    "UIItems": [
+                      {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "$$SERVER$:$FAQ_LASTSENTENCE",
-                            "FontSize": 16,
-                            "Padding": [
-                                5,
-                                5,
-                                5,
-                                5
-                            ]
+                          "Text": "$$SERVER$:$WELCOME_TO_SERVER",
+                          "FontSize": 32,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            5
+                          ]
                         }
-                    }
-                ]
-            },
-            {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
-                "Props": {
-                    "Title": "$$SERVER$:$RULES_AND_GUIDES",
-                    "Note": "$$SERVER$:$RULES_AND_GUIDES_NOTE",
-                    "Fill": 1
-                },
-                "UIItems": [
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Padding": [
-                                2,
-                                2,
-                                2,
-                                2
-                            ]
+                          "Text": "$$SERVER$:$SERVER_SLOGAN",
+                          "FontSize": 16,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            5
+                          ]
                         }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
                         "Props": {
-                            "Fill": 1
+                          "Padding": [
+                            5,
+                            10,
+                            5,
+                            5
+                          ]
                         },
                         "UIItems": [
-                            {
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                            "UIItems": [
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                "Props": {
+                                  "Fill": 1
+                                },
+                                "UIItems": []
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                "Props": {
+                                  "Label": "Join Discord",
+                                  "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
+                                  "Padding": [
+                                    5,
+                                    5,
+                                    8,
+                                    5
+                                  ]
+                                },
+                                "OnClickEvent": {
+                                  "Url": "https://discord.gg/pxs"
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                "Props": {
+                                  "Label": "Website",
+                                  "Padding": [
+                                    8,
+                                    5,
+                                    5,
+                                    5
+                                  ]
+                                },
+                                "OnClickEvent": {
+                                  "Url": "https://www.phoenx-society.de"
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                "Props": {
+                                  "Fill": 1
+                                },
+                                "UIItems": []
+                              }
+                            ]
+                          },
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                            "UIItems": [
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                "Props": {
+                                  "Fill": 1
+                                },
+                                "UIItems": []
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                "Props": {
+                                  "Label": "More Soon",
+                                  "Padding": [
+                                    5,
+                                    8,
+                                    5,
+                                    5
+                                  ]
+                                },
+                                "OnClickEvent": {
+                                  "Url": "https://www.phoenx-society.de"
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                "Props": {
+                                  "Fill": 1
+                                },
+                                "UIItems": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+            "Props": {
+              "HorizontalAlignment": 0,
+              "Padding": [
+                5,
+                5,
+                5,
+                5
+              ]
+            },
+            "UIItems": [
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                "Props": {
+                  "VerticalAlignment": 0,
+                  "Fill": 1,
+                  "Color": [
+                    0.3,
+                    0.2,
+                    0.5
+                  ],
+                  "Padding": [
+                    10,
+                    10,
+                    10,
+                    10
+                  ]
+                },
+                "UIItems": [
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                    "Props": {
+                      "Padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                      ]
+                    },
+                    "UIItems": [
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                        "Props": {
+                          "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
+                          "Width": 120,
+                          "Height": 120,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            5
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                        "Props": {
+                          "Fill": 1,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            5
+                          ]
+                        },
+                        "UIItems": [
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Props": {
+                              "Text": "$$SERVER$:$HOME_WIDGET1_HEADLINE",
+                              "FontSize": 14,
+                              "Justification": "Left",
+                              "Padding": [
+                                0,
+                                0,
+                                0,
+                                5
+                              ]
+                            }
+                          },
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Props": {
+                              "Text": "$$SERVER$:$HOME_WIDGET1_TEXT",
+                              "FontSize": 11,
+                              "Justification": "Left",
+                              "Fill": 1,
+                              "Padding": [
+                                0,
+                                0,
+                                0,
+                                5
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                "Props": {
+                  "VerticalAlignment": 0,
+                  "Fill": 1,
+                  "Color": [
+                    0,
+                    0.7,
+                    0.5
+                  ],
+                  "Padding": [
+                    10,
+                    10,
+                    10,
+                    10
+                  ]
+                },
+                "UIItems": [
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                    "Props": {
+                      "Padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                      ]
+                    },
+                    "UIItems": [
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                        "Props": {
+                          "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
+                          "Width": 120,
+                          "Height": 120,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            5
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                        "Props": {
+                          "Fill": 1,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            5
+                          ]
+                        },
+                        "UIItems": [
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Props": {
+                              "Text": "$$SERVER$:$HOME_WIDGET2_HEADLINE",
+                              "FontSize": 14,
+                              "Justification": "Left",
+                              "Padding": [
+                                0,
+                                0,
+                                0,
+                                5
+                              ]
+                            }
+                          },
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Props": {
+                              "Text": "$$SERVER$:$HOME_WIDGET2_TEXT",
+                              "FontSize": 11,
+                              "Justification": "Left",
+                              "Fill": 1,
+                              "Padding": [
+                                0,
+                                0,
+                                0,
+                                5
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                "Props": {
+                  "VerticalAlignment": 0,
+                  "Fill": 1,
+                  "Color": [
+                    0,
+                    0.2,
+                    0.5
+                  ],
+                  "Padding": [
+                    10,
+                    10,
+                    10,
+                    10
+                  ]
+                },
+                "UIItems": [
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                    "Props": {
+                      "Padding": [
+                        5,
+                        5,
+                        5,
+                        5
+                      ]
+                    },
+                    "UIItems": [
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                        "Props": {
+                          "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
+                          "Width": 120,
+                          "Height": 120,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            5
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                        "Props": {
+                          "Fill": 1,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            5
+                          ]
+                        },
+                        "UIItems": [
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Props": {
+                              "Text": "$$SERVER$:$HOME_WIDGET3_HEADLINE",
+                              "FontSize": 14,
+                              "Justification": "Left",
+                              "Padding": [
+                                0,
+                                0,
+                                0,
+                                5
+                              ]
+                            }
+                          },
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Props": {
+                              "Text": "$$SERVER$:$HOME_WIDGET3_TEXT",
+                              "Justification": "Left",
+                              "FontSize": 11,
+                              "Fill": 1,
+                              "Padding": [
+                                0,
+                                0,
+                                0,
+                                5
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "$$SERVER$:$FAQ",
+          "Note": "$$SERVER$:$FAQ_NOTE",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+            "Props": {
+              "Padding": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
+            "Props": {
+              "Fill": 1
+            },
+            "UIItems": [
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_HEADLINE1",
+                  "FontSize": 16,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_TEXT1",
+                  "FontSize": 12,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_HEADLINE2",
+                  "FontSize": 16,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_TEXT2",
+                  "FontSize": 12,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_HEADLINE3",
+                  "FontSize": 16,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_TEXT3",
+                  "FontSize": 12,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_HEADLINE4",
+                  "FontSize": 16,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_TEXT4",
+                  "FontSize": 12,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_HEADLINE5",
+                  "FontSize": 16,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_TEXT5",
+                  "FontSize": 12,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_HEADLINE6",
+                  "FontSize": 16,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_TEXT6",
+                  "FontSize": 12,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_HEADLINE7",
+                  "FontSize": 16,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_TEXT7",
+                  "FontSize": 12,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_HEADLINE8",
+                  "FontSize": 16,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Props": {
+                  "Text": "$$SERVER$:$FAQ_TEXT8",
+                  "FontSize": 12,
+                  "Padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+            "Props": {
+              "Padding": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "$$SERVER$:$FAQ_LASTSENTENCE",
+              "FontSize": 16,
+              "Padding": [
+                5,
+                5,
+                5,
+                5
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "$$SERVER$:$RULES_AND_GUIDES",
+          "Note": "$$SERVER$:$RULES_AND_GUIDES_NOTE",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+            "Props": {
+              "Padding": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+            "Props": {
+              "Fill": 1,
+              "Padding": [
+                10,
+                10,
+                10,
+                10
+              ]
+            },
+            "UIItems": [
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                "Props": {
+                  "Fill": 1
+                },
+                "UIItems": []
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                "Props": {
+                  "Fill": 5,
+                  "Color": [
+                    0.18,
+                    0.26,
+                    0.42
+                  ],
+                  "Padding": [
+                    16,
+                    16,
+                    16,
+                    16
+                  ]
+                },
+                "UIItems": [
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                    "Props": {
+                      "Fill": 1
+                    },
+                    "UIItems": [
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$RULES_PANEL_TITLE",
+                          "FontSize": 24,
+                          "Padding": [
+                            5,
+                            5,
+                            5,
+                            4
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$RULES_PANEL_NOTE",
+                          "FontSize": 12,
+                          "Padding": [
+                            5,
+                            0,
+                            5,
+                            12
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                        "Props": {
+                          "Padding": [
+                            2,
+                            2,
+                            2,
+                            10
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
+                        "Props": {
+                          "Fill": 1
+                        },
+                        "UIItems": [
+                          {
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                            "Props": {
+                              "Color": [
+                                0.08,
+                                0.12,
+                                0.2
+                              ],
+                              "Padding": [
+                                16,
+                                16,
+                                16,
+                                16
+                              ]
+                            },
+                            "UIItems": [
+                              {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "$$SERVER$:$RULES_CONTENT",
-                                    "FontSize": 14,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
+                                  "Text": "$$SERVER$:$RULES_SECTION_INTRO_TITLE",
+                                  "FontSize": 18,
+                                  "Padding": [
+                                    5,
+                                    5,
+                                    5,
+                                    4
+                                  ]
                                 }
-                            }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_INTRO_NOTE",
+                                  "FontSize": 12,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    8
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_INTRO_BODY",
+                                  "FontSize": 14,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    12
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                                "Props": {
+                                  "Padding": [
+                                    2,
+                                    2,
+                                    2,
+                                    10
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_PVP_TITLE",
+                                  "FontSize": 18,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    4
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_PVP_NOTE",
+                                  "FontSize": 12,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    8
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_PVP_BODY",
+                                  "FontSize": 14,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    12
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                                "Props": {
+                                  "Padding": [
+                                    2,
+                                    2,
+                                    2,
+                                    10
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_BUILD_TITLE",
+                                  "FontSize": 18,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    4
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_BUILD_NOTE",
+                                  "FontSize": 12,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    8
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_BUILD_BODY",
+                                  "FontSize": 14,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    12
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                                "Props": {
+                                  "Padding": [
+                                    2,
+                                    2,
+                                    2,
+                                    10
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_FAIR_TITLE",
+                                  "FontSize": 18,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    4
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_FAIR_NOTE",
+                                  "FontSize": 12,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    8
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "$$SERVER$:$RULES_SECTION_FAIR_BODY",
+                                  "FontSize": 14,
+                                  "Padding": [
+                                    5,
+                                    0,
+                                    5,
+                                    5
+                                  ]
+                                }
+                              }
+                            ]
+                          }
                         ]
-                    }
+                      }
+                    ]
+                  }
                 ]
-            },
-
-
-                                        ]
-                                    }
-                                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                "Props": {
+                  "Fill": 1
+                },
+                "UIItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
