@@ -505,238 +505,317 @@
             },
             "UIItems": [
               {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                 "Props": {
-                  "Text": "$$SERVER$:$FAQ_HEADLINE1",
-                  "FontSize": 16,
                   "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
+                    12,
+                    12,
+                    12,
+                    12
                   ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_TEXT1",
-                  "FontSize": 12,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_HEADLINE2",
-                  "FontSize": 16,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_TEXT2",
-                  "FontSize": 12,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_HEADLINE3",
-                  "FontSize": 16,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_TEXT3",
-                  "FontSize": 12,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_HEADLINE4",
-                  "FontSize": 16,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_TEXT4",
-                  "FontSize": 12,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_HEADLINE5",
-                  "FontSize": 16,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_TEXT5",
-                  "FontSize": 12,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_HEADLINE6",
-                  "FontSize": 16,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_TEXT6",
-                  "FontSize": 12,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_HEADLINE7",
-                  "FontSize": 16,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_TEXT7",
-                  "FontSize": 12,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_HEADLINE8",
-                  "FontSize": 16,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                "Props": {
-                  "Text": "$$SERVER$:$FAQ_TEXT8",
-                  "FontSize": 12,
-                  "Padding": [
-                    5,
-                    5,
-                    5,
-                    5
-                  ]
-                }
+                },
+                "UIItems": [
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                    "Props": {
+                      "Text": "$$SERVER$:$FAQ",
+                      "FontSize": 24,
+                      "Padding": [
+                        6,
+                        6,
+                        6,
+                        2
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                    "Props": {
+                      "Text": "$$SERVER$:$FAQ_NOTE",
+                      "FontSize": 14,
+                      "Padding": [
+                        6,
+                        0,
+                        6,
+                        12
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                    "Props": {
+                      "Padding": [
+                        0,
+                        6,
+                        0,
+                        12
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                    "Props": {
+                      "Padding": [
+                        10,
+                        10,
+                        10,
+                        10
+                      ]
+                    },
+                    "UIItems": [
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_HEADLINE1",
+                          "FontSize": 20
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_TEXT1",
+                          "FontSize": 14,
+                          "Padding": [
+                            4,
+                            4,
+                            4,
+                            4
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                    "Props": {
+                      "Padding": [
+                        0,
+                        6,
+                        0,
+                        6
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                    "Props": {
+                      "Padding": [
+                        10,
+                        10,
+                        10,
+                        10
+                      ]
+                    },
+                    "UIItems": [
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_HEADLINE2",
+                          "FontSize": 20
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_TEXT2",
+                          "FontSize": 14,
+                          "Padding": [
+                            4,
+                            4,
+                            4,
+                            4
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                    "Props": {
+                      "Padding": [
+                        0,
+                        6,
+                        0,
+                        6
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                    "Props": {
+                      "Padding": [
+                        10,
+                        10,
+                        10,
+                        10
+                      ]
+                    },
+                    "UIItems": [
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_HEADLINE3",
+                          "FontSize": 20
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_TEXT3",
+                          "FontSize": 14,
+                          "Padding": [
+                            4,
+                            4,
+                            4,
+                            4
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                    "Props": {
+                      "Padding": [
+                        0,
+                        12,
+                        0,
+                        12
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                    "UIItems": [
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_HEADLINE4",
+                          "FontSize": 16
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_TEXT4",
+                          "FontSize": 13,
+                          "Padding": [
+                            4,
+                            2,
+                            4,
+                            8
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_HEADLINE5",
+                          "FontSize": 16
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_TEXT5",
+                          "FontSize": 13,
+                          "Padding": [
+                            4,
+                            2,
+                            4,
+                            8
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_HEADLINE6",
+                          "FontSize": 16
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_TEXT6",
+                          "FontSize": 13,
+                          "Padding": [
+                            4,
+                            2,
+                            4,
+                            8
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_HEADLINE7",
+                          "FontSize": 16
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_TEXT7",
+                          "FontSize": 13,
+                          "Padding": [
+                            4,
+                            2,
+                            4,
+                            8
+                          ]
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_HEADLINE8",
+                          "FontSize": 16
+                        }
+                      },
+                      {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                          "Text": "$$SERVER$:$FAQ_TEXT8",
+                          "FontSize": 13,
+                          "Padding": [
+                            4,
+                            2,
+                            4,
+                            10
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                    "Props": {
+                      "Padding": [
+                        0,
+                        10,
+                        0,
+                        6
+                      ]
+                    }
+                  },
+                  {
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                    "Props": {
+                      "Text": "$$SERVER$:$FAQ_LASTSENTENCE",
+                      "FontSize": 14,
+                      "Padding": [
+                        6,
+                        4,
+                        6,
+                        6
+                      ]
+                    }
+                  }
+                ]
               }
             ]
-          },
-          {
-            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
-            "Props": {
-              "Padding": [
-                2,
-                2,
-                2,
-                2
-              ]
-            }
-          },
-          {
-            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-            "Props": {
-              "Text": "$$SERVER$:$FAQ_LASTSENTENCE",
-              "FontSize": 16,
-              "Padding": [
-                5,
-                5,
-                5,
-                5
-              ]
-            }
           }
         ]
       },
